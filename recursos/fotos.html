@@ -11,23 +11,20 @@
     <title>"Título de cabecera (de la página web)</title>
 </head>
 <body>
-<!--Lo que incluye la etiquta "body" se denomna como cuerpo. Puede contener tablas "table", con la introducción de CSS se implementó la etiqueta "div" (dividión):
-    <div>—Este elemento define una división genérica. Se usa cuando no se puede aplicar
-        ningún otro elemento.
-    <main>—Este elemento define una división que contiene el contenido principal del
-        documento (el contenido que representa el tema central de la página).
-    <nav>—Este elemento define una división que contiene ayuda para la navegación, como el
-        menú principal de la página o bloques de enlaces necesarios para navegar en el sitio web.
-    <section>—Este elemento define una sección genérica. Se usa frecuentemente para separar
-        contenido temático, o para generar columnas o bloques que ayudan a organizar el contenido
-        principal.
-    <aside>—Este elemento define una división que contiene información relacionada con el
-        contenido principal pero que no es parte del mismo, como referencias a artículos o enlaces
-        que apuntan a publicaciones anteriores.
-    <article>—Este elemento representa un artículo independiente, como un mensaje de
-        foro, el artículo de una revista, una entrada de un blog, un comentario, etc.
-    <header>—Este elemento define la cabecera del cuerpo o de secciones dentro del cuerpo.
-    <footer>—Este elemento define el pie del cuerpo o de secciones dentro del cuerpo.-->
+<!--Imágenes
+Las imágenes pueden se pueden considerar el segundo medio más importante en la Web.
+HTML incluye los siguientes elementos para introducir imágenes en nuestros documentos.
+<img>—Este elemento inserta una imagen en el documento. El elemento requiere del
+atributo src para especificar la URL del archivo con la imagen que queremos incorporar.
+<picture>—Este elemento inserta una imagen en el documento. Trabaja junto con el
+elemento <source> para ofrecer múltiples imágenes en diferentes resoluciones. Es útil
+para crear sitios web adaptables, como veremos en el Capítulo 5.
+<figure>—Este elemento representa contenido asociado con el contenido principal, pero
+que se puede eliminar sin que se vea afectado, como fotos, vídeos, etc.
+<figcaption>—Este elemento introduce un título para el elemento <figure>.
+ Para incluir una imagen en el documento, solo necesitamos declarar el elemento <img> y
+asignar la URL del archivo al atributo src. 
+-->
     <header>
         <h1>Título del cuerpo "header"</h1>
         <time datetime="2024-02-18" pubdate>Publicado 18-02-2024</time>
@@ -41,40 +38,7 @@
         
     </nav>
     <main>
-        <section id="Filosofía">
-            <h2>Epicuro de Samos</h2>
-            <article>
-               <pre>
-La <u>muerte</u> es <b>una</b> <em>quimera:</em> porque mientras yo <mark>existo</mark>, no existe la <strong>muerte;</strong> muerte;
-<i>y cuando existe la muerte, ya no existo yo.</i>
-
-<cite>Epicuro de Samos</cite>
-               </pre>
-            </article>
-            <article>
-                <h3>"Texto del segundo artículo A".</h3>
-            </article>
-            
-        </section>
-
-
-        <section id="sectionB">
-           <h2>Sección B</h2>  
-            <article>
-                <h3>"Texto del primer artículo B".</h3>
-            <article>
-                <h3>"Texto del segundo artículo B".</h3>
-            </article>
-            </article>
-        </section>
-        <aside>
-            <!--El elemento <aside> describe la información que contiene, no un lugar en la estructura,
-por lo que se podría ubicar en cualquier parte del diseño, y se puede usar mientras su
-contenido no se considere el contenido principal del documento.-->
-            Cita del artículo uno
-            <pre></pre>
-            Cita del artículo dos
-        </aside>
+        
     </main>
 
 <footer>
