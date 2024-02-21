@@ -1,0 +1,52 @@
+<!-- Cada una de estas herramientas se representa por un
+elemento y el formulario queda definido por el elemento <form>, que incluye etiquetas de
+apertura y cierre para agrupar al resto de los elementos y requiere de algunos atributos para
+determinar cómo se envía la información al servidor. 
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <form name="formulario" method="get" action=""procesar.php>
+        <p><label>Nombre: <input type="text"name="nombre" maxlength="15"> </label> </p>
+
+        <p><label>Edad: <input type="number" name="edad"></label></p>
+
+        <p><label>Correo: <input type="email" name="correo"></label></p>
+
+        <p><label>Sito Web: <input type="url"< name="sitioweb"><label></p>
+
+        <p><input type="submit" values="Enviar datos"></p>
+        </form>
+
+        <form name="formulario" method="get" action="procesar.php">
+            <p><label>Nombre: <input type="text" name="nombre"
+           maxlength="15"></label></p>
+            <p><label><input type="radio" name="edad" value="15" checked> 15
+           Años</label></p>
+            <p><label><input type="radio" name="edad" value="30"> 30
+           Años</label></p>
+            <p><label><input type="radio" name="edad" value="45"> 45
+           Años</label></p>
+            <p><label><input type="radio" name="edad" value="60"> 60
+           Años</label></p>
+            <p><input type="submit" value="Enviar"></p>
+           </form> 
+
+           <input type="color" name="micolor" value="#99BB00">
+
+           <form name="formulario" method="get" action="procesar.php">
+            <p><label>Name: <input type="text" name="nombre"></label></p>
+            <p><label>Age: <input type="text" name="edad"></label></p>
+            <p><input type="image" src="../imagenes/Eoicuro de Samos.jpg" width="100"></p>
+           </form>  
+    </section>
+    
+</body>
+</html>
